@@ -1,0 +1,5 @@
+{
+  "name": "PDSLAB",
+  "description": "Pathology Lab Management System with local database and Excel sync.",
+  "requestFramePermissions": []
+}
