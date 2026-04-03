@@ -1,0 +1,6 @@
+{
+	"appId": "com.rejoan.pdslab",
+	"appName": "PDSLAB",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
