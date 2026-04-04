@@ -3,29 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "electron/main.js",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit",
-    "electron": "electron .",
-    "electron:build": "vite build && electron-builder"
-  },
-  "build": {
-    "appId": "com.rejoan.pdslab",
-    "productName": "PDSLAB",
-    "files": [
-      "dist/**/*",
-      "electron/**/*"
-    ],
-    "directories": {
-      "buildResources": "assets"
-    },
-    "win": {
-      "target": "nsis"
-    }
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.0",
@@ -56,8 +39,6 @@
     "@types/node": "^22.14.0",
     "@types/wicg-file-system-access": "^2023.10.7",
     "autoprefixer": "^10.4.21",
-    "electron": "^41.1.1",
-    "electron-builder": "^26.8.1",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
